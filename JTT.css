@@ -8,11 +8,16 @@ body{
 p {
 	font-size: 18px;
 	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
 
 }
 
 h1 {
 	text-align: center;
+	font-size: 30px;
+	color: rgb(167, 169, 172);
+	margin: 0 auto;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 
@@ -44,7 +49,7 @@ h1 {
 
 .face-info{
 	width: 100%;
-	min-height: 320px;
+	height: 190px;
 	background-color: ;
 }
 
@@ -114,5 +119,41 @@ h1 {
 
 .details{
 	display: none;
+
+}
+
+.site-info{
+	height: 150px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+
+}
+
+.site-info h1 {
+	color: rgb(238, 190, 67);
+	text-align: ;
+	font: 
+
+}
+
+.site-info p {
+	color: rgb(238, 190, 67);
+}
+
+.date{
+	width: 60px;
+	height: auto;
+	
+}
+
+.ustream {
+	width: 200px;
+	height: 120px;
+	background-color: rgb(238, 190, 67);
+	margin: 15px 75%;
+	float: ;
+	position: absolute;
+	
 
 }

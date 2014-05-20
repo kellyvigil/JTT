@@ -28,8 +28,5 @@ $(document).ready(function() {
     $('.face-info').html( details_html );
 	});
 
-	$(function(){
-    $('li').okhover();  
-}):	
 
 });

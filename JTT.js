@@ -28,11 +28,11 @@ $(document).ready(function() {
     $('.face-info').html( details_html );
 	});
 
-	$(function(){
-    $('li').okhover();  
-}):
+	
 
-	$.fn.bounce = function(options) {
+});
+
+$.fn.bounce = function(options) {
     
     var settings = $.extend({
         speed: 10
@@ -104,4 +104,4 @@ $(function() {
     });
 });
 
-});
+

@@ -27,8 +27,9 @@ $(document).ready(function() {
 		var details_html = $(this).parent().find('#cai-details').html();
     $('.face-info').html( details_html );
 	});
-});
 
-$(function(){
+	$(function(){
     $('li').okhover();  
 }):
+	
+});

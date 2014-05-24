@@ -299,11 +299,19 @@ text-decoration: none;
 }
 }
 @media only screen and (max-width: 810px) {
+
+.faces-wrapper{
+
+	height: 90px;
+}
+
 .faces-wrapper ul{
 	text-align: center;
 	list-style-type: none;
+	
 
 }
+
 
 .faces-list {
 
@@ -331,7 +339,7 @@ text-decoration: none;
 }
 
 .face-info h1{
-	padding-top: 40px;
+	padding-top: 10px;
 
 	
 	}

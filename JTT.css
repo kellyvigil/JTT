@@ -400,9 +400,10 @@ text-decoration: none;
   width: auto;
   height: 93%;
   background: url(http://i.imgur.com/oQnXITG.png) no-repeat left center fixed; 
-  background-size: 190% auto;
+  background-size: 180% auto;
   z-index: 1000;
   background-position: center 0%;
+  position: fixed;
 
 }
 

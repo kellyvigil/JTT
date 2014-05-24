@@ -399,10 +399,11 @@ text-decoration: none;
 
   width: auto;
   height: 93%;
-   background: url(http://i.imgur.com/oQnXITG.png) no-repeat left center fixed; 
- background-size: 200% auto;
+  background: url(http://i.imgur.com/oQnXITG.png) no-repeat left center fixed; 
+  background-size: 190% auto;
+  margin
   z-index: 1000;
-  background-position: center 5%;
+  background-position: center ;
 
 }
 

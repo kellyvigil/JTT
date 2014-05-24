@@ -403,8 +403,24 @@ text-decoration: none;
   background-size: 180% auto;
   z-index: 1000;
   background-position: center 0%;
-  
 
+
+}
+
+p {
+	font-size: 10px;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 18px;
+	color: rgb(167, 169, 172);
+	margin: 0 auto;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 800;
 }
 
 

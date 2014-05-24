@@ -180,15 +180,14 @@ h1 {
 }
 
 .show-info{
-	width: 60%;
+	width: 50%;
 	height: 150px;
 	background-image: url(http://i.imgur.com/62S5Gyn.png) ; 
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
   	float: left;
   	top: -20px;
-
-	
-
+  	z-index: 1;
 
 
 }
@@ -243,41 +242,18 @@ a:active {text-decoration:none;}
 
 @media only screen and (max-width: 1140px) {
 
-.date {
-	position: ;
-	float: ;
-}
-
-.date h1 {
-font-size: 60px;
-}
-.place {
-	float: left;
-	padding-top: 16px;
-}
-
-.place h2{
-	font-size: 20px;
-	line-height: 2px;
-	text-align: left;
-	padding: 0;
-	color: rgb(238, 190, 67);
-	font-family: 'PT Sans', sans-serif;
-
-	
-}
-
-.price {
-	float: ;
-	padding-top: 22px;
-	position: ;
-}
 
 
-.price h1{
-	font-size: 70px;
-	line-height: .1em;
-	text-align: ;
+.show-info{
+	width: 50%;
+	height: 150px;
+	background-image: url(http://i.imgur.com/62S5Gyn.png) ; 
+	background-size: contain;
+	background-repeat: no-repeat;
+  	float: left;
+  	top: -20px;
+
+
 }
 
 .site-info p {
@@ -357,46 +333,21 @@ text-decoration: none;
 }
 @media only screen and (max-width: 670px) {
 
+	.show-info{
+	width: 50%;
+	height: 150px;
+	background-image: url(http://i.imgur.com/62S5Gyn.png) ; 
+	background-size: contain;
+	background-repeat: no-repeat;
+  	float: left;
+  	top: -20px;
 
-
-	.date {
-
-	position: absolute;
-}
-
-.date h1 {
-font-size: 60px;
-}
-.place {
-	float: left;
-	padding-top: 16px;
-	display: none;
 
 }
 
-.place h2{
-	font-size: 20px;
-	line-height: 2px;
-	text-align: left;
-	padding: 0;
-	color: rgb(238, 190, 67);
-	font-family: 'PT Sans', sans-serif;
-
-	
-}
-
-.price {
-	
-	padding-top: 70px;
-	position: ;
-}
 
 
-.price h1{
-	font-size: 60px;
-	line-height: .1em;
-	text-align: ;
-}
+
 
 .site-info p {
 	color: rgb(238, 190, 67);
@@ -433,6 +384,10 @@ font-size: 60px;
 color:  rgb(238, 190, 67);
 text-decoration: none;
 
+}
+
+#wrapper{
+	display: none;
 }
 
 

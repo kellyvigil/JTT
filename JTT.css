@@ -179,7 +179,7 @@ h1 {
 	font-size: 110px;
 	line-height: .75em;
 	margin-top: 30px;
-	margin-bottom: 0px;
+	
 	
 
 }
@@ -207,7 +207,7 @@ h1 {
 
 
 .ustream {
-	width: 30%;
+	width: 40%;
 	height: 120px;
 	
 	margin: 15px 18px 0px 0;
@@ -268,12 +268,12 @@ a:active {text-decoration:none;}
 
 
 .ustream {
-	width: 200px;
+	width: 40%;
 	height: 120px;
-	background-color: rgb(238, 190, 67);
-	margin: 15px 68%;
-	float: ;
-	position: absolute;
+	
+	margin: 15px 18px 0px 0;
+	float: right;
+	position: relative;
 	
 
 }
@@ -293,12 +293,37 @@ a:active {text-decoration:none;}
 }
 
 .ustream:hover p {
-color:  rgb(238, 190, 67);
+color:  rgb(167, 169, 172);
 text-decoration: none;
 
 }
 }
 @media only screen and (max-width: 810px) {
+
+	.ustream {
+	width: 100%;
+	height: 90px;
+	background-color: rgb(238, 190, 67);
+	margin: 0 auto;
+	float: ;
+	position: relative;
+	
+
+}
+
+.ustream p {
+	color: black;
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	font-size: 50px;
+	position: absolute;
+	margin: 0 auto;
+
+
+}
+
+
 
 .faces-wrapper{
 
@@ -332,19 +357,45 @@ text-decoration: none;
 	width: 14%;	
 }
 
-.face img{
+
+
+.face-info h1{
+	padding-top: 20px;
+
+	
+	}
+
+	.face img{
+	
+	width: 65px;
+	height: auto;
+}
+
+	#wrapper{
+	display: none;
+}
+
+	.show-info{
+	width: 100%;
+	height: 150px;
+	background-image: url(http://i.imgur.com/62S5Gyn.png) ; 
+	background-size: contain;
+	background-repeat: no-repeat;
+  	float: left;
+  	top: -20px;
+
+
+
+}
+
+}
+@media only screen and (max-width: 670px) {
+
+	.face img{
 	
 	width: 35px;
 	height: auto;
 }
-
-.face-info h1{
-	padding-top: px;
-
-	
-	}
-}
-@media only screen and (max-width: 670px) {
 
 p {
 	font-size: 10px;

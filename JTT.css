@@ -40,6 +40,41 @@ h1 {
 
 }
 
+#wrapper {
+    width:100%; 
+    height: 100%; 
+    border: 
+         }
+
+#wrapper li {
+    position: absolute;
+    width: 250px;
+    height: 250px;    
+    background-image: url(http://www.stardancer.net/wpimages/starball_w_stardancer.gif) ;
+    background-size: cover;
+    
+   
+    line-height: 60px;
+    text-align:center;
+    cursor:pointer; 
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-wrapper{
 	width: 100%;
 	height: 500px;
@@ -147,9 +182,11 @@ h1 {
 .show-info{
 	width: 60%;
 	height: 150px;
-	background-image: url(http://i.imgur.com/XcHRDbR.png);
+	background-image: url(http://i.imgur.com/62S5Gyn.png) ; 
 	background-size: cover;
-  float: left;
+  	float: left;
+  	top: -20px;
+
 	
 
 
@@ -166,12 +203,13 @@ h1 {
 
 
 .ustream {
-	width: 200px;
+	width: 30%;
 	height: 120px;
-	background-color: rgb(238, 190, 67);
-	margin: 15px 0% 0px 78%;
-	float: ;
-	position: absolute;
+	
+	margin: 15px 18px 0px 0;
+	float: right;
+	position: relative;
+
 	
 
 }
@@ -181,7 +219,8 @@ h1 {
 	height: 100%;
 	padding-top: 30px;
 	font-size: 50px;
-	position: absolute;
+	position: ;
+	background-color: rgb(238, 190, 67)
 
 }
 
@@ -191,7 +230,7 @@ h1 {
 }
 
 .ustream:hover p {
-color:  rgb(238, 190, 67);
+color:  rgb(167, 169, 172);
 text-decoration: none;
 
 }

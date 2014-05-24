@@ -145,7 +145,7 @@ h1 {
 }
 
 .show-info{
-	width: 70%;
+	width: 60%;
 	height: 150px;
 	background-image: url(http://i.imgur.com/XcHRDbR.png)no-repeat left center fixed; 
   -webkit-background-size: cover;
@@ -171,7 +171,7 @@ h1 {
 	width: 200px;
 	height: 120px;
 	background-color: rgb(238, 190, 67);
-	margin: 15px 78%;
+	margin: 15px 0% 0px 78%;
 	float: ;
 	position: absolute;
 	

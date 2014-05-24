@@ -147,42 +147,19 @@ h1 {
 .show-info{
 	width: 70%;
 	height: 150px;
-	background-image: url(http://i.imgur.com/BFBtJx0.png);
+	background-image: url(http://i.imgur.com/BFBtJx0.png)no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	float: right;
 
+
+
 }
 
 
-.date {
-	position: ;
-	float: left;
-}
-.place {
-	float: left;
-	padding-top: 16px;
-}
 
-.price {
-	float: left;
-	padding-top: 40px;
-	position: ;
-}
-.place h2{
-	font-size: 20px;
-	line-height: 2px;
-	text-align: left;
-	padding: 0;
-	color: rgb(238, 190, 67);
-	font-family: 'PT Sans', sans-serif;
-
-	
-}
-
-.price h1{
-	font-size: 100px;
-	line-height: .1em;
-	text-align: left;
-}
 
 .site-info p {
 	color: rgb(238, 190, 67);

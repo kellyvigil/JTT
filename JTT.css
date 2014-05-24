@@ -395,6 +395,16 @@ text-decoration: none;
 #wrapper{
 	display: none;
 }
+.cover-image{
+
+  width: auto;
+  height: 93%;
+   background: url(http://i.imgur.com/oQnXITG.png) no-repeat left center fixed; 
+ background-size: 100% auto;
+  z-index: 1000;
+  background-position: center 5%;
+
+}
 
 
 }

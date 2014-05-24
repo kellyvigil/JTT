@@ -143,6 +143,16 @@ h1 {
 	
 
 }
+
+.show-info{
+	width: 70%;
+	height: auto;
+	background-image: url(http://i.imgur.com/BFBtJx0.png);
+	float: right;
+
+}
+
+
 .date {
 	position: ;
 	float: left;

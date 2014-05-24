@@ -334,13 +334,14 @@ text-decoration: none;
 @media only screen and (max-width: 670px) {
 
 	.show-info{
-	width: 50%;
+	width: 100%;
 	height: 150px;
 	background-image: url(http://i.imgur.com/62S5Gyn.png) ; 
 	background-size: contain;
 	background-repeat: no-repeat;
   	float: left;
   	top: -20px;
+
 
 
 }
@@ -356,12 +357,12 @@ text-decoration: none;
 
 
 .ustream {
-	width: 200px;
+	width: 100%;
 	height: 120px;
 	background-color: rgb(238, 190, 67);
-	margin: 15px 48%;
+	margin: 0 auto;
 	float: ;
-	position: absolute;
+	position: relative;
 	
 
 }
@@ -381,7 +382,7 @@ text-decoration: none;
 }
 
 .ustream:hover p {
-color:  rgb(238, 190, 67);
+color:  rgb(167, 169, 172);
 text-decoration: none;
 
 }

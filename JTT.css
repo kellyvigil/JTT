@@ -148,6 +148,7 @@ h1 {
 	width: 60%;
 	height: 150px;
 	background-image: url(http://i.imgur.com/XcHRDbR.png);
+	background-size: cover;
   float: left;
 	
 

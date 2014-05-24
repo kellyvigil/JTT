@@ -148,10 +148,10 @@ h1 {
 	width: 70%;
 	height: 150px;
 	background-image: url(http://i.imgur.com/BFBtJx0.png)no-repeat left center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 	float: right;
 
 

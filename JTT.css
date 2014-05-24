@@ -401,9 +401,8 @@ text-decoration: none;
   height: 93%;
   background: url(http://i.imgur.com/oQnXITG.png) no-repeat left center fixed; 
   background-size: 190% auto;
-  margin
   z-index: 1000;
-  background-position: center ;
+  background-position: center 0%;
 
 }
 

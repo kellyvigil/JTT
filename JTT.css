@@ -408,7 +408,7 @@ text-decoration: none;
 }
 @media only screen and (max-width: 670px) {
 
-	.face img{
+.face img{
 	
 	width: 35px;
 	height: auto;
@@ -418,6 +418,8 @@ p {
 	font-size: 10px;
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
+	padding: 0 30px;
+
 
 }
 
